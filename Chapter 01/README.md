@@ -18,4 +18,11 @@
 - Important Notes
 - Why is it called Asymptotic Notation?
 - Guildlines for Asymptotic Notation
-- Simplyfying properties
+- Simplyfying properties of asymptotic notations
+- Commonly used logarithm and summation
+- Master Theorem for divide and conquer references
+- Divide and conquer Master Theorem: problems & solutions
+- Master Theorem for subtraction and conquer Master Theorem
+- Method of guessing and confirming
+- Amortized analysis
+- Algorithms Analysis: Problem & Solution
