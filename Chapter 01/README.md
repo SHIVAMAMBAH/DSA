@@ -1,1 +1,21 @@
-
+## Content
+- Variables
+- Data Types
+- Data Structure
+- Abstract Data Structure (ADTs)
+- What is an algorithm?
+- Why the analysis of algorithm?
+- Goal of the Analysis of the Algorithm
+- What is running time Analysis?
+- How to compare Algorithms?
+- What is rate of Growth?
+- Commonly used rate of Growth
+- Types of analysis
+- Asymptotic Notation
+- Big-O-Notation (Upper Bounding Function)
+- Omega-Q-Notattion (Lower Bounding Function)
+- There - 0 - Notation (Order Function)
+- Important Notes
+- Why is it called Asymptotic Notation?
+- Guildlines for Asymptotic Notation
+- Simplyfying properties
