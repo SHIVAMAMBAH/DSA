@@ -53,3 +53,24 @@ In the traditional study of algorithm, there are two main criteria for judging t
 ## 5. Why the analysis of the Algorithm?
 A ---------> B<br>
 To go from city A to city B, there can be many ways of accomplishing this: by flight, by bus, by train ans also by bicycle. Depending on the availability and convenience, we choose the one that suits us. Similarily, in Computer Science, multiple algorithma are available for solving the same problem. **Algorithm analysis helps us to determine which algorithm is most efficient in terms of time and space consumed.**
+
+## 6. Goal of the analysis of the Algorithm
+The goal of the analysis of the algorithm is to compare algorithms (or solutions) mainly in terms of running time but also in terms of other factor (meaning, developer effort etc) 
+
+## 7. What is Running Time Analysis
+It is the process of determining how processing time increases as the size of the problem (input size) increases. Input size is the number of elements in the input, and depending on the problem type, the input may be of different types.<br>
+The following are the common types of the input:<br>
+- Size of the array
+- Polynomial degree
+- Number of elements in a mtrix
+- Number of bits in the binary classification of the input
+- Vertices and edge in a graph
+
+## 8. How to compare Algorithm
+To compare algorithm, let us define a few objective measures:<br>
+- **Execution Times**: Not a good measure as execution times are specific to a particular computer.
+- **Number of statements executed**: Not a good measure, since the number of statements varies with the programming language as well as the style of the indicidual programmer
+- **Ideal Solution**: Let us assume that the running time of a given algorithm as a function of the input size n (i.e. f(n)) and compare these different functions corresponding to running times. This kind of comparison is independent of machine time, programming style etc.
+
+## 9. What is the Rate of Growth?
+Thea rate at which the running time increases as a function of input is called the rate of growth.
