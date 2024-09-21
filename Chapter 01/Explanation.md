@@ -43,4 +43,6 @@ To simplify the process of solving problems, we combine the data structures with
 An ADT consists of two parts:<br>
 (1) **Declaration of Data**<br>
 (2) **Declaration of operations**<br><br>
-Commonly used ADTs include: Linked list, Stacks, Queues, Priority Queues, Binary Trees, Dictionaries, Disjoint sets [Union and FInd], Hash Table, Grpahs, and many more.
+Commonly used ADTs include: Linked list, Stacks, Queues, Priority Queues, Binary Trees, Dictionaries, Disjoint sets [Union and FInd], Hash Table, Grpahs, and many more.<br><br>
+While defining the ADTs do not worry about the implementation details. They come into the picture only when we want to use them. Different kinds of ADTs are suited to different kinds of applications and some are highly specialized to specific tasks.<br>
+
