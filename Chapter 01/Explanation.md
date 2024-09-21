@@ -77,4 +77,5 @@ Thea rate at which the running time increases as a function of input is called t
 
 ## 10. Commonly used Rates of Growth
 The diagram below shows the relationship between different rates of growth:<br><br>
-![Screenshot 2024-09-21 153432](https://github.com/user-attachments/assets/3aef52ef-4418-4cee-890f-8aa974bc7acc)
+![Screenshot 2024-09-21 153855](https://github.com/user-attachments/assets/01271f09-87db-420d-91c6-961dd3f417b1)
+
