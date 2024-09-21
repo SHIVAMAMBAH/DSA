@@ -35,4 +35,12 @@ e.g. Linked list, stacks, queues etc.<br><br>
 (2) **Non Linear Data Structure**: Elements of this data structure are stored/accessed in a non-linear order.<br>
 e.g. trees and graphs etc.<br>
 
+## 4. Abstract Data Types
 
+Before defining abstract data types, let us consider different view of system defined data types. We know that, by default all primitive data types support basic operations such as addition and substraction. The system provide the implementations for the primitive data types.<br>
+For Uer-Defined data types we also need to define operations. The implementation for these operations can be done when we want to actually use them. That means, in general, user defined data types are defined along with their opertations.<br>
+To simplify the process of solving problems, we combine the data structures with their operations and we will call this Abstract Data Types (ADTs).<br>
+An ADT consists of two parts:<br>
+(1) ** Declaration of Data**
+(2) ** Declaration of operations**<br> <br>
+Commonly used ADTs include: Linked list, Stacks, Queues, Priority Queues, Binary Trees, Dictionaries, Disjoint sets [Union and FInd], Hash Table, Grpahs, and many more.
