@@ -46,3 +46,6 @@ An ADT consists of two parts:<br>
 Commonly used ADTs include: Linked list, Stacks, Queues, Priority Queues, Binary Trees, Dictionaries, Disjoint sets [Union and FInd], Hash Table, Grpahs, and many more.<br><br>
 While defining the ADTs do not worry about the implementation details. They come into the picture only when we want to use them. Different kinds of ADTs are suited to different kinds of applications and some are highly specialized to specific tasks.<br>
 
+## 5. What is an Algorithm?
+An algorithm is the step-by-step unambiguous instruction to solve a given problem.<br>
+In the traditional study of algorithm, there are two main criteria for judging the merits of algorithms: **Correctness** [does the algoorithm give solution to the problem in a finite number of steps] and **Efficiency** [How much resources in terms of time and memory} does it take to execute.
