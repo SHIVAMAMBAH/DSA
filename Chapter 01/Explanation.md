@@ -102,3 +102,17 @@ A quadratic growth rate is one that can be described by a parabola.<br>
 ### Exponential Growth Rate
 An exponential growth rate is one where each extra unit of data requires a doubling of resource. As you can see the growth rate starts off looking like it is flat but quickly shoots up to near vertical (note that it can't actually be vertical)<br>
 ![exponential](https://github.com/user-attachments/assets/25280714-1fe3-4b1e-85c0-ba2ce9d981a5)
+
+## 11. Types of Analysis
+To analyze the given algorithm, we need to know with which inputs the algorithm takes less time and with which time the algorithm takes a long time. We have already seen that the algorithm can be expressed in the form of an expresiom. That means we represent the algorithm with multiple expressions: one for the case where it takes less time and other for the case where it takes more time.<br>
+In general, the first case is called the best case and the second case is called the worst case for the algorithm. To analyze the algorithm, we need some kind of syntaz and that forms the base for asymptotic analysis/notation. There are three types of analysis:<br>
+- **Worst Case**
+  - Defines the input for which the algorithm takes a long time (slowest time to complete)
+  - Input is the one fow which the algorithm runs the slowest.
+- **Best Case**
+  - Defines the input for which the algorithm takes the least time (fastest time to complete)
+  - Input is the one for which the algorithm runs the fastest.
+- **Average Case**
+  - Provides a prediction about the running time of the algorithm.
+  - Run the algorithm many times, using many different inputs that comes from some distribution that generates these inputs. Compute the total running time (by adding the individual time) and divide by the numer of trials.
+  - Assume that the input is random.
