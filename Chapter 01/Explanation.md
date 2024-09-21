@@ -24,6 +24,15 @@ If the system-defined data types are not enough, the most programming language a
 
 e.g. structures in C / C++ and classes in C++ / Java. Like in structures, we combine many system defined data types and call it user defined data types. This gives more flexibility and comfort in dealing with computer memory.
 
+## 3. Data Structures
 
+Once we have data in variables, we need some mechanism for manipulating the data to solve problems. **Data Structure is a particular way of storing and organizing data in a computer so that it can be used efficiently.** A data structure is a special format for organizing and storing data. General data structures include arrays, files, linked list, stacks, queues, trees, graphs and so on.<br>
+
+Depending on the organizing of the elements, data structures are classified into two types:<br>
+
+(1) **Linear Data Structure**: Elements are accessed in a sequential order but it is not compulsary to store all elements sequentially.<br>
+e.g. Linked list, stacks, queues etc.<br>
+(2) ** Non Linear Data Structure**: Elements of this data structure are stored/accessed in a non-linear order.<br>
+e.g. trees and graphs etc.<br>
 
 
