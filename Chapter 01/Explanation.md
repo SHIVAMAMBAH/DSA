@@ -79,3 +79,13 @@ Thea rate at which the running time increases as a function of input is called t
 The diagram below shows the relationship between different rates of growth:<br><br>
 ![Screenshot 2024-09-21 153855](https://github.com/user-attachments/assets/01271f09-87db-420d-91c6-961dd3f417b1)
 
+### Constant Growth Rate
+A constant resource need is one where the resource need does not grow. That is processing 1 piece of data takes the same amount of resource as processing 1 million pieces of data. The graph of such a growth rate looks like a horizontal line<br>
+![constants](https://github.com/user-attachments/assets/97bb6502-9ab8-4b96-a5ae-912c60178883)
+
+### Logrithmic Growth Rate
+A logrithmic growth rate is a growth rate where the resource needs grows by one unit each time the data is doubled. This effectively means that as the amount of data gets bigger, the curve describing the growth rate gets flatter (closer to horizontal but never reaching it). The following graph shows what a curve of this nature would look like.<br>
+![log](https://github.com/user-attachments/assets/3bbb502e-dda8-446a-9f00-d225d80f06f7)
+
+
+
