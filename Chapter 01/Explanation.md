@@ -49,3 +49,7 @@ While defining the ADTs do not worry about the implementation details. They come
 ## 5. What is an Algorithm?
 An algorithm is the step-by-step unambiguous instruction to solve a given problem.<br>
 In the traditional study of algorithm, there are two main criteria for judging the merits of algorithms: **Correctness** [does the algoorithm give solution to the problem in a finite number of steps] and **Efficiency** [How much resources in terms of time and memory} does it take to execute.
+
+## 5. Why the analysis of the Algorithm?
+A ---------> B<br>
+To go from city A to city B, there can be many ways of accomplishing this: by flight, by bus, by train ans also by bicycle. Depending on the availability and convenience, we choose the one that suits us. Similarily, in Computer Science, multiple algorithma are available for solving the same problem. **Algorithm analysis helps us to determine which algorithm is most efficient in terms of time and space consumed.**
