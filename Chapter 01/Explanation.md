@@ -32,7 +32,7 @@ Depending on the organizing of the elements, data structures are classified into
 
 (1) **Linear Data Structure**: Elements are accessed in a sequential order but it is not compulsary to store all elements sequentially.<br>
 e.g. Linked list, stacks, queues etc.<br>
-(2) ** Non Linear Data Structure**: Elements of this data structure are stored/accessed in a non-linear order.<br>
+(2) **Non Linear Data Structure**: Elements of this data structure are stored/accessed in a non-linear order.<br>
 e.g. trees and graphs etc.<br>
 
 
