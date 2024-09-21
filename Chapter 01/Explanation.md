@@ -31,7 +31,7 @@ Once we have data in variables, we need some mechanism for manipulating the data
 Depending on the organizing of the elements, data structures are classified into two types:<br>
 
 (1) **Linear Data Structure**: Elements are accessed in a sequential order but it is not compulsary to store all elements sequentially.<br>
-e.g. Linked list, stacks, queues etc.<br>
+e.g. Linked list, stacks, queues etc.<br><br>
 (2) **Non Linear Data Structure**: Elements of this data structure are stored/accessed in a non-linear order.<br>
 e.g. trees and graphs etc.<br>
 
