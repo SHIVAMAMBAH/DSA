@@ -74,3 +74,7 @@ To compare algorithm, let us define a few objective measures:<br>
 
 ## 9. What is the Rate of Growth?
 Thea rate at which the running time increases as a function of input is called the rate of growth.
+
+## 10. Commonly used Rates of Growth
+The diagram below shows the relationship between different rates of growth:<br><br>
+![Screenshot 2024-09-21 153432](https://github.com/user-attachments/assets/3aef52ef-4418-4cee-890f-8aa974bc7acc)
