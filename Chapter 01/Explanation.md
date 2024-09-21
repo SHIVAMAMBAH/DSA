@@ -87,5 +87,18 @@ A constant resource need is one where the resource need does not grow. That is p
 A logrithmic growth rate is a growth rate where the resource needs grows by one unit each time the data is doubled. This effectively means that as the amount of data gets bigger, the curve describing the growth rate gets flatter (closer to horizontal but never reaching it). The following graph shows what a curve of this nature would look like.<br>
 ![log](https://github.com/user-attachments/assets/3bbb502e-dda8-446a-9f00-d225d80f06f7)
 
+### Linear Growth Rate
+A linear growth rate is a growth rate where the resource needs and the amount of data is directly proportional to each other. That is the growth rate can be described as a straight line that is not horizontal<br>
+![linear](https://github.com/user-attachments/assets/fb29c668-e85a-49f0-bfa0-b0279a04cc0f)
 
+### Log Linear
+A loglinear growth rate is a slightly curved line. the curve is more pronounced for lower values than higher ones<br>
+<img width="492" alt="loglinear" src="https://github.com/user-attachments/assets/5e3c1108-0d12-4aaa-9d0d-ccfaeb2dee7c">
 
+### Quadratic Growth Rate
+A quadratic growth rate is one that can be described by a parabola.<br>
+![squared](https://github.com/user-attachments/assets/4812a2dc-42d1-4716-9dd6-773359cc48d1)
+
+### Exponential Growth Rate
+An exponential growth rate is one where each extra unit of data requires a doubling of resource. As you can see the growth rate starts off looking like it is flat but quickly shoots up to near vertical (note that it can't actually be vertical)<br>
+![exponential](https://github.com/user-attachments/assets/25280714-1fe3-4b1e-85c0-ba2ce9d981a5)
