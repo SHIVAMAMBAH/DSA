@@ -10,6 +10,20 @@ Computer memory is filled with ones and zeroes. It's very difficult to program i
 (1) System defined data types (primitive data types)<br>
 (2) User defined data types
 
+## Primitive Data Types
+Data Types that are defined by system are called primitive data types.<br>
+e.g. int, float, char, double, bool etc.<br>
+
+The number of bits allocatoed for each primtive data type depends on the **programming language**, the **compiler** and the **operating system**.<br>
+
+**For Example**
+int may take 2 bytes or 4 bytes. If it takes 2 bytes (16 bits) , then the total number of possible values are -32,768 to 32767 . If it takes 4 bytes (32 bits), then the possible values are between -2147483648 to 2147483647. The same is the case with other data types.
+
+## User-Defined Data Types
+If the system-defined data types are not enough, the most programming language allow the users to define their own data types called user defined data types.<br>
+
+e.g. structures in C / C++ and classes in C++ / Java. Like in structures, we combine many system defined data types and call it user defined data types. This gives more flexibility and comfort in dealing with computer memory.
+
 
 
 
