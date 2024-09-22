@@ -116,3 +116,7 @@ In general, the first case is called the best case and the second case is called
   - Provides a prediction about the running time of the algorithm.
   - Run the algorithm many times, using many different inputs that comes from some distribution that generates these inputs. Compute the total running time (by adding the individual time) and divide by the numer of trials.
   - Assume that the input is random.
+```
+Lower Bound <= Average Time <= Upper Bound
+```
+for a given algorithm. We can represent the best, worst ans average cases in the form of expressions.
