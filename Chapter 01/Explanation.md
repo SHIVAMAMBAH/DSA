@@ -120,3 +120,6 @@ In general, the first case is called the best case and the second case is called
 Lower Bound <= Average Time <= Upper Bound
 ```
 for a given algorithm. We can represent the best, worst ans average cases in the form of expressions.
+
+## 12. Asymptotic Notation
+Having the expressions for the best, average and worst case, for all the three cases we need to identify the upper and lower bounds. To represent these upper bound and lower bounds, we need some kind of syntax and that is the subject of the following discussion. let us assume that the given algorithm is represented in the form of function f(n).
