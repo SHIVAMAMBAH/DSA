@@ -1,4 +1,5 @@
 #include<iostream>
+#include<limits.h>
 
 int min(int a, int b){
   if(a>b){
@@ -8,7 +9,7 @@ int min(int a, int b){
   }
 }
 
-int SmallesNumber(int arr[], int size){
+int SmallestNumber(int arr[], int size){
   int smallest = INT_MAX;
 
   for(int i = 0;i<size;i++){
