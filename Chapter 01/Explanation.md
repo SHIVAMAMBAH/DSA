@@ -140,3 +140,6 @@ O(1) : 100, 10000, 200, 1, 20 etc.<br>
 O(n) : 3n + 100, 100n, 2n - 1, 3 etc.<br>
 O(nlnn) : 5nlnn, 3n - 100, 2n - 1, 100, 100n etc.<br>
 O($n^2$) : $n^2$, 5n - 10, 100, $n^2$ - 2n -1, 5 etc.<br>
+
+## Omega - &omega;- Notation [Lower Bounding Function]
+This notation gives the tighter lower bound of the given algorithm and we represent it as f(n) = &omega;(g(n)). That means, at larger values of n, the tighter lower bound of f(n) is g(n).
