@@ -143,3 +143,5 @@ O($n^2$) : $n^2$, 5n - 10, 100, $n^2$ - 2n -1, 5 etc.<br>
 
 ## Omega - &omega;- Notation [Lower Bounding Function]
 This notation gives the tighter lower bound of the given algorithm and we represent it as f(n) = &omega;(g(n)). That means, at larger values of n, the tighter lower bound of f(n) is g(n).
+![omega](https://github.com/user-attachments/assets/35e6dc1a-00e8-4a22-8ed9-ca13f7812470)
+ The &omega; notation can be defined as &omega;(g(n)) = {f(n) : there exists positive constants c and n $_0$ such that 0<=cg(n)<=f(n) for all n>= n $_0$}. g(n) is an asymptotic tight lower bound for f(n). Our objective is to give the largest rate of growth g(n) which is less than or equal to the given algorithm's rate of growth f(n).
