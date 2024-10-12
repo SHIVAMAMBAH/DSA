@@ -14,7 +14,7 @@
 - Asymptotic Notation
 - Big-O-Notation (Upper Bounding Function)
 - Omega-Q-Notattion (Lower Bounding Function)
-- There - 0 - Notation (Order Function)
+- Theta - 0 - Notation (Order Function)
 - Important Notes
 - Why is it called Asymptotic Notation?
 - Guildlines for Asymptotic Notation
