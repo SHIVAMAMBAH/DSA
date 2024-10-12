@@ -131,3 +131,9 @@ Let us see the O-notation with a little more detail. O-notation defined as O(g(n
 g(n) is an asymptotic tight upper bound for f(n). Our objective is to give the smallest rate of growth g(n) which is greater than or equal to the given algorithm's rate of growth.<br>
 
 Generally, we discard lower vallues of n. That means the rate of growth at lower values of n is not important. In the figure, n0 is the point from which we need to consider the rate of growth for a given algorithm. Below n0, the rate of growth could be different. n0 is caled threshold for the given function.
+### Big - O visualization
+O(g(n)) is the set of functions with smaller or the same order rate of growth as g(n). For example, O(n^2) includes O(1), O(n), O(nlnn) etc.<br>
+O(1) : 100, 10000, 200, 1, 20 etc.<br>
+O(n) : 3n + 100, 100n, 2n - 1, 3 etc.<br>
+O(nlnn) : 5nlnn, 3n - 100, 2n - 1, 100, 100n etc.<br>
+O(n^2) : n^2, 5n - 10, 100, n^2 - 2n -1, 5 etc.<br>
