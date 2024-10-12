@@ -125,15 +125,15 @@ for a given algorithm. We can represent the best, worst ans average cases in the
 Having the expressions for the best, average and worst case, for all the three cases we need to identify the upper and lower bounds. To represent these upper bound and lower bounds, we need some kind of syntax and that is the subject of the following discussion. let us assume that the given algorithm is represented in the form of function f(n).
 
 ## 13. Big-O Notation (Upper Bounding Function)
-This notation gives the tight upper bound of the given function. Generally it is represented as f(n) = O(g(n)). That means, at larget values of n, the upper bound of f(n) is g(n). For example, if f(n)  = n^4 + 100n^2 + 10n + 50 is the given algorithm, then n^4 is g(n). That means g(n) gives the maximum rate of growth for f(n) at larget values of n.<br>
+This notation gives the tight upper bound of the given function. Generally it is represented as f(n) = O(g(n)). That means, at larget values of n, the upper bound of f(n) is g(n). For example, if f(n)  = $n^4$ + 100 $n^2$ + 10n + 50 is the given algorithm, then $n^4$ is g(n). That means g(n) gives the maximum rate of growth for f(n) at larget values of n.<br>
 
 Let us see the O-notation with a little more detail. O-notation defined as O(g(n)) = {f(n) : there exists positive constants c and n0 ( read as n not)such that 0<=f(n)<=cg(n) for all n>n0}.<br>
 g(n) is an asymptotic tight upper bound for f(n). Our objective is to give the smallest rate of growth g(n) which is greater than or equal to the given algorithm's rate of growth.<br>
 
 Generally, we discard lower vallues of n. That means the rate of growth at lower values of n is not important. In the figure, n0 is the point from which we need to consider the rate of growth for a given algorithm. Below n0, the rate of growth could be different. n0 is caled threshold for the given function.
 ### Big - O visualization
-O(g(n)) is the set of functions with smaller or the same order rate of growth as g(n). For example, O(n^2) includes O(1), O(n), O(nlnn) etc.<br>
+O(g(n)) is the set of functions with smaller or the same order rate of growth as g(n). For example, O( $n^2$ ) includes O(1), O(n), O(nlnn) etc.<br>
 O(1) : 100, 10000, 200, 1, 20 etc.<br>
 O(n) : 3n + 100, 100n, 2n - 1, 3 etc.<br>
 O(nlnn) : 5nlnn, 3n - 100, 2n - 1, 100, 100n etc.<br>
-O(n^2) : n^2, 5n - 10, 100, n^2 - 2n -1, 5 etc.<br>
+O($n^2$) : $n^2$, 5n - 10, 100, $n^2$ - 2n -1, 5 etc.<br>
