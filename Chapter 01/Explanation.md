@@ -141,7 +141,14 @@ O(n) : 3n + 100, 100n, 2n - 1, 3 etc.<br>
 O(nlnn) : 5nlnn, 3n - 100, 2n - 1, 100, 100n etc.<br>
 O($n^2$) : $n^2$, 5n - 10, 100, $n^2$ - 2n -1, 5 etc.<br>
 
-## Omega - &omega;- Notation [Lower Bounding Function]
+## 14. Omega - &omega;- Notation [Lower Bounding Function]
 This notation gives the tighter lower bound of the given algorithm and we represent it as f(n) = &omega;(g(n)). That means, at larger values of n, the tighter lower bound of f(n) is g(n).
 ![omega](https://github.com/user-attachments/assets/35e6dc1a-00e8-4a22-8ed9-ca13f7812470)
  The &omega; notation can be defined as &omega;(g(n)) = {f(n) : there exists positive constants c and n $_0$ such that 0<=cg(n)<=f(n) for all n>= n $_0$}. g(n) is an asymptotic tight lower bound for f(n). Our objective is to give the largest rate of growth g(n) which is less than or equal to the given algorithm's rate of growth f(n).
+
+## 15. Theta - &theta;-Notation [Order Function]
+This notation decides whether the upper and lower bounds of a given function (algorithm) are the same. The average running time of an algorithm is always between the lower bound and the upper bound. If the upper bound [o] and the lower bound [&omega;] give the same result, then the &theta; notation will also have the same rate of growth.<br>
+Example: let us assume that f(n) =  10n + n is the expression. Then its tight upper bound g(n) is O(n). The rate of growth in the best case is g(n) = O(n).<br>
+
+In this case, the rate of growth in the best case and worst case are the same. As a result, the average case will also be the same.<br>
+For a given function (algorithm) ,if the rate of growth (bounds) for O and &omega; are not the same then the rate of growth for the &theta; case may not be the same. In this case, we need to consider all possible time complexities and take the average of those.
