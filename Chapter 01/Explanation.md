@@ -127,6 +127,9 @@ Having the expressions for the best, average and worst case, for all the three c
 ## 13. Big-O Notation (Upper Bounding Function)
 This notation gives the tight upper bound of the given function. Generally it is represented as f(n) = O(g(n)). That means, at larget values of n, the upper bound of f(n) is g(n). For example, if f(n)  = $n^4$ + 100 $n^2$ + 10n + 50 is the given algorithm, then $n^4$ is g(n). That means g(n) gives the maximum rate of growth for f(n) at larget values of n.<br>
 
+![big0](https://github.com/user-attachments/assets/071689bf-8dda-4224-ba72-21d637362195)
+
+
 Let us see the O-notation with a little more detail. O-notation defined as O(g(n)) = {f(n) : there exists positive constants c and n$_0$ ( read as n not)such that 0<=f(n)<=cg(n) for all n>n $_0$}.<br>
 g(n) is an asymptotic tight upper bound for f(n). Our objective is to give the smallest rate of growth g(n) which is greater than or equal to the given algorithm's rate of growth.<br>
 
