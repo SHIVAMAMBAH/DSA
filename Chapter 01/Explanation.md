@@ -152,5 +152,5 @@ Example: let us assume that f(n) =  10n + n is the expression. Then its tight up
 
 In this case, the rate of growth in the best case and worst case are the same. As a result, the average case will also be the same.<br>
 For a given function (algorithm) ,if the rate of growth (bounds) for O and &omega; are not the same then the rate of growth for the &theta; case may not be the same. In this case, we need to consider all possible time complexities and take the average of those.<br>
-Now consider the definition of &theta; notation. It is defined as &theta;(g(n)) = {f(n) : there exist positive constants c<sub>1<sub>, c<sub>2<sub> and n $_0$ such that 0<=c<sub>1<sub> g(n) <= f(n) <=c<sub>2<sub> g(n) for all n>=n $_0$.<br>
+Now consider the definition of &theta; notation. It is defined as &theta;(g(n)) = {f(n) : there exist positive constants c<sub>1</sub>, c<sub>2</sub> and n $_0$ such that 0<=c<sub>1</sub> g(n) <= f(n) <=c<sub>2</sub> g(n) for all n>=n $_0$.<br>
 g(n) is an asymptotic tight bound for f(n). &theta;(g(n)) is the set of functions with the same order of growth as g(n).
