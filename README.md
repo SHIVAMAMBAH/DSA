@@ -1,2 +1,2 @@
 # DSA
-This repository contains DSA Theory and Programs written in C++/C.
+This repository contains DSA Theory and Programs written in C/C++.
