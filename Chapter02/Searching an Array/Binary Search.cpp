@@ -1,5 +1,4 @@
 #include<iostream>
-#include<algorithm>
 
 int BinarySearch(int arr[],int size,int target)
 {
