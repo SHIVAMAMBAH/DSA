@@ -12,7 +12,7 @@ int LinearSearch(int arr[],int size, int target)
 
 int main()
 {
-    int arr[5 ] = {21,23,43,45,54};
+    int arr[5] = {21,23,43,45,54};
     
     printf("%d\n",LinearSearch(arr,5,23));
     printf("%d\n",LinearSearch(arr,5,129));
